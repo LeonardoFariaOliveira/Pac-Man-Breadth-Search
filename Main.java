@@ -4,8 +4,8 @@ public class Main{
         Graph g = new Graph(107, 2);
 
         //Init
-        g.addEdge(0, 2, true);
-        g.addEdge(0, 3, true);
+        g.addEdge(0, 2, false);
+        g.addEdge(0, 3, false);
 
         //1
         g.addEdge(1, 2, true);
